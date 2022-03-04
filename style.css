@@ -48,7 +48,7 @@ body{
   margin-bottom: 2rem;
 }
 
-h1{
+.heading{
   font-size: 1.1rem;
   margin-bottom: 1rem;
   padding: .5rem;
@@ -56,29 +56,21 @@ h1{
 
 }
 
-p{
+.description{
   display: none;
 }
 
-@media only screen and (max-width: 600px){
-  .container{
-    grid-template-columns: 1fr;
-    z-index: -1;
-  }
-  .container__image{
-    aspect-ratio: 1/1;
-    height: 40%;
-    justify-content: center;
-    align-items: center;
-    margin-inline: 4rem;
-    margin-top: 0;
-    top: 0;
-    z-index: 1;
-    width: auto;
-  }
-  .title{
-    margin-top: 5rem;
-  }
-
+.show-pg{
+  display: block;
 }
 
+.question{
+  position: relative;
+}
+
+.down_arrow{
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 5.3rem;
+}
