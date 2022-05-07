@@ -51,12 +51,12 @@ Users should be able to:
 
 ### What I learned
 
-I learnt how to target css classes in javascript in addition to adding various classes to an eventlistener.
+This was my first javascript challenge and I did have some problem understanding how to implement the code such that upon click of the arrow it rotates -180deg, however I then decided that it would be smart to select all of the arrow classes and then have indexes and the particular link clicked as a parameter so that no matter which link the user clicks the function will be called to add the active and rotate classes to the link. However once you click a link then the other links that were previously clicked will have the active and rotate classes removed.
 
 
 ### Continued development
 
-I am a bit unfamiliar with javascript syntax hence I plan to complete more projects involving javascript.
+I am a bit unfamiliar with javascript syntax hence I plan to complete more projects on Frontend Mentor involving javascript and in addition to attempt an online javascript course to better understand the syntax.
 
 ### Useful resources
 
